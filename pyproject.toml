@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rimpy"
+version = "0.1.0"
+description = "A collection of scripts for working with a custom RimWorld build system."
+authors = ["SirRandoo <8146689+SirRandoo@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyyaml = "^6.0.1"
+semver = "^3.0.2"
+aiohttp = "^3.9.3"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
